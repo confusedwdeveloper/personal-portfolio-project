@@ -160,7 +160,7 @@ address {
     font-size: 1.7rem;
   }
   figcaption {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
   footer {
     font-size: 1.5rem;
@@ -170,13 +170,16 @@ address {
     display: grid;
     grid-template-columns: repeat(2,minmax(300px,1fr));
     grid-template-rows: 1fr 1fr;
-    grid-template-areas:
+    /* grid-template-areas:
     "fig1 fig2"
-    "fig3 fig4";
+    "fig3 fig4"; */
   }
 
   .project-tile {
     border: none;
+  }
+  img {
+    width: 30vw;
   }
 
 
